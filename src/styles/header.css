@@ -1,0 +1,13 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #197278;
+  padding: 1rem 3rem 1.2rem 3rem;
+  color: #EDDDD4;
+}
+
+header div{
+  display: flex;
+  gap: 2rem;
+}
