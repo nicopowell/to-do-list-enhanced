@@ -16,7 +16,7 @@ body {
   color: #EDDDD4;
   border-radius: 0.5rem;
   font-size: 1.5rem; 
-  transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out, background-color 0.15s ease-in-out;
 }
 
 .btn-red {
