@@ -1,0 +1,54 @@
+/* SMALL DEVICES */
+form {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  gap: 1rem;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+form div input, form div select{
+  background-color: #EAD3C6;
+  border: none;
+  padding: 0.75rem;
+  box-shadow: inset 1px 1px 4px #3333;
+  border-radius: 0.5rem;
+  color: #283D3B;
+  font-size: 1rem;
+}
+
+label {
+  margin-left: 0.75rem;
+}
+
+#task-input-group {
+  flex-grow: 10;
+}
+
+#task-date-group {
+  flex-grow: 1;
+}
+
+#task-tags-group {
+  flex-grow: 3;
+}
+
+form button {
+  align-self: last baseline;
+  margin-bottom: 0.25rem;
+}
+
+/* MEDIUM DEVICES */
+@media screen and (width >= 480px) {
+
+}
+
+/* LARGE DEVICES */
+@media screen and (width >= 768px) {
+
+}
+

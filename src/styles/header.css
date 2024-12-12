@@ -5,7 +5,7 @@ header {
   align-items: center;
   background: #197278;
   color: #EDDDD4;
-  padding: 1rem 1rem 1.2rem 1rem;
+  padding: 1rem 0.75rem 1.2rem 0.75rem;
 }
 
 header h1 {
@@ -25,7 +25,7 @@ header h1 {
 /* LARGE DEVICES */
 @media screen and (width >= 768px) {
   header {
-    padding: 1rem 3rem 1.2rem 3rem;
+    padding: 1rem 2rem 1.2rem 2rem;
   }
 }
 

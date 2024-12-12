@@ -1,13 +1,6 @@
-import { useState } from 'react'
 import '../styles/header.css'
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  }
-
   return (
     <header>
       <h1>To-Do List</h1>
